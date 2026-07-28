@@ -26,7 +26,6 @@ void solve(){
                 j++; // Always move to the next element
         }
         
-        // If we ran out of non-zero elements but still need to do operations
         while(i < k){
                 cout << 0 << "\n";
                 i++; // Fixed: added i++ to prevent an infinite loop
