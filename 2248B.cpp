@@ -4,16 +4,17 @@ using namespace std;
 void solve() {
     int n, m;
     cin >> n >> m;
-    
+    // #we take the input a here
     vector<long long> a(n);
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-    
+    // #we here take the input b here
     vector<long long> b(m);
     for (int i = 0; i < m; i++) {
         cin >> b[i];
     }
+    
  
     if (n < 2 * m) {
         cout << "NO\n";
