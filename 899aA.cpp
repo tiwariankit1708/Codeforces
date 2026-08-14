@@ -12,6 +12,7 @@ int main(){
         }
         int onegroup=nums[1];
         int twogroup=nums[2];
+        // find the minumun of the two groups
         int group=min(onegroup,twogroup);
         int diff=0;
         if(onegroup>twogroup){
