@@ -20,7 +20,7 @@ void solve() {
         S2[i] = (i > 0 ? S2[i - 1] : 0) + v2;
     }
     
-=    vector<int> M2(n);
+    vector<int> M2(n);
     M2[n - 2] = S2[n - 2];
     for (int i = n - 3; i >= 1; --i) {
         M2[i] = max(M2[i + 1], S2[i]);
@@ -28,7 +28,7 @@ void solve() {
     
     bool possible = false;
     for (int i = 0; i < n - 2; ++i) {
-=        if (S1[i] >= 0 && M2[i + 1] >= S2[i]) {
+      if (S1[i] >= 0 && M2[i + 1] >= S2[i]) {
             possible = true;
             break;
         }
