@@ -16,7 +16,7 @@ void solve() {
         max_val = max(max_val, a);
     }
     
-    long long ans = 2LL * n - 2LL * max_val - k + 1LL;
+2257    long long ans = 2LL * n - 2LL * max_val - k + 1LL;
     
     cout << ans << "\n";
 }
