@@ -28,6 +28,7 @@ int main() {
             }
             
             cout << res << "\n";
+            // here we output the result of the code
         }
     }
     
