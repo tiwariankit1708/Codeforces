@@ -10,8 +10,6 @@ void solve() {
     for (int i = 1; i <= n; ++i) {
         cin >> p[i];
     }
-
-    // Collect all indices where p[i] != i
     vector<int> bad_indices;
     for (int i = 1; i <= n; ++i) {
         if (p[i] != i) {
