@@ -16,7 +16,7 @@ void solve(){
             odds.push_back(x);
         }
     }
-    
+    //here we combine the odds and even
     vector<int> nums;
     for (int x : evens) nums.push_back(x);
     for (int x : odds) nums.push_back(x);
