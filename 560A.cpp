@@ -16,6 +16,7 @@ int main(){
                         f2=true;
                 }
         }
+        // if f1 is true then we output -1
         if(f1){
                 cout<<-1<<"\n";
                 return 0;
