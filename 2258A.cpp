@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        vector<long long> a(n);
+        for (auto &x : a) scanf("%lld", &x);
+        printf("%lld\n", __gcd(a[0], a[n - 1]));
+    }
+    return 0;
+}
