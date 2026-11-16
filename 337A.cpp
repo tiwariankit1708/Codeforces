@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+        int n,m;
+        cin>>n>>m;
+        vector<int> nums(m);
+        for(int i=0;i<m;i++)cin>>nums[i];
+        sort(nums.begin(),nums.end());
+        int mi=INT_MAX;
+        for(int i=0;i<=m-n;i++){
+                int a=nums[i];
+                int b=nums[i+n-1];
+                if(b-a<mi){
+                        mi=min(mi,b-a);
+                }
+        }
+        cout<<mi<<"\n";
+}
